@@ -1,0 +1,13 @@
+TODO: set project up for git version control
+TODO: integrate postgres db and host data there 
+TODO: enable password hashing and salting within the db via express.js
+TODO: make default routing to home page when user logs in successfully - if unsuccessful route them back to the login page
+        with a red banner stating login failed
+TODO: renew git oauth2 secrets and client id's and save them in the .env file
+        when committing this project add a gitignore for the env to preserve the security of the .env file...
+TODO: migrate certain aspects of the postgres db to dataverse and remove redundancies - use power pages
+        to preserve licensing costs
+TODO: We can all migrate the existing classes into a postgres database use hashign and salting to improve the schema vastly
+        - use express.js to implement this
+TODO: get supabase url and client id and store it in the .env.example file which should be omitted from git commits via
+        gitignore
